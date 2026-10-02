@@ -1,5 +1,13 @@
-21053261
-Abiy Abinet Mamo
+# LLM Fine-Tuning on Amazon SageMaker
+
+Coursework repository exploring QLoRA fine-tuning examples for Falcon, Llama, Mistral, and Mixtral using SageMaker's `@remote` decorator.
+
+**Stack:** Python · Amazon SageMaker · Hugging Face Transformers · PEFT · bitsandbytes
+
+This repository contains example notebooks and bundled FAQ datasets. It demonstrates a cloud-training workflow; it does not establish independently benchmarked model improvements or original authorship of the upstream examples. Existing license and contribution notices are preserved. Running training or hosting creates billable AWS resources; review `config.yaml`, IAM permissions, and cleanup requirements first.
+
+## Original example documentation
+
 # Fine-tune Foundation Models on Amazon SageMaker using @remote decorator
 
 In this example we will go through the steps required for fine-tuning foundation models on Amazon SageMaker by using @remote decorator for executing SageMaker Training jobs.
